@@ -28,7 +28,7 @@ void quadratic_roots(int a,int b,int c){
 
     if (discriminant == 0) {                                      // One real root
         
-        root1 = -b/(2*a);
+        root1 = -b/(2*a);                                         // calculating roots using the mathematical formula
 
         printf("\nRoots are:\n");
         printf("Root = %.2lf\n", root1);
@@ -36,7 +36,7 @@ void quadratic_roots(int a,int b,int c){
 
     else if (discriminant > 0) {                                 // Two real roots
        
-        root1 = (-b+sqrt(discriminant))/(2*a);            // calculating roots using the mathematical formula
+        root1 = (-b+sqrt(discriminant))/(2*a);                  // calculating roots using the mathematical formula
         root2 = (-b-sqrt(discriminant))/(2*a);
 
         printf("\nRoots are :\n");
@@ -46,9 +46,9 @@ void quadratic_roots(int a,int b,int c){
     
 
     
-    else {                                                             // Complex roots of the form (x + iy)
+    else {                                                          // Complex roots of the form (x + iy)
 
-        real = -b / (2 * a);
+        real = -b / (2 * a);                                        // calculating roots using the mathematical formula
         imaginary = sqrt(-discriminant) / (2 * a);
 
         printf("\nRoots are complex:\n");
