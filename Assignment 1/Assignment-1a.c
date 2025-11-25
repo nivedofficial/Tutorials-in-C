@@ -8,7 +8,7 @@
  */
 
 #include<stdio.h>
-
+// Test
 int count_number_of_one(int input);
 
 void main(){
